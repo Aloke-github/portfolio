@@ -40,7 +40,9 @@ function EducationPage() {
             <p className="text-xs tracking-widest text-muted-foreground uppercase">Education</p>
             <h2 className="mt-3 text-lg font-semibold">RedTeam Hacker Academy</h2>
             <p className="mt-2 text-sm text-muted-foreground">
-              Advanced Diploma in Cyber Defense · June 2025 – August 2026
+              Advanced Diploma in Cyber Defense
+              <br />
+              June 2025 – August 2026
             </p>
           </div>
         </div>
