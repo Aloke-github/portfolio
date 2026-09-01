@@ -3,7 +3,7 @@ export const LINKEDIN = "https://www.linkedin.com/in/alokekrishnatr";
 
 export const stats = [
   { value: 1, suffix: "y 4m", label: "Hands-on security training" },
-  { value: 3, suffix: "", label: "Security projects & CTFs" },
+  { value: 2, suffix: "", label: "Security projects" },
   { value: 4, suffix: "", label: "Languages spoken" },
 ];
 
@@ -34,14 +34,27 @@ export const skillGroups = [
     ],
   },
   {
-    title: "Automation & Languages",
-    skills: [
-      { name: "Python for Security Automation", level: 75 },
-      { name: "English (Professional Working)", level: 80 },
-      { name: "Malayalam (Native)", level: 100 },
-      { name: "Tamil / Hindi (Working / Elementary)", level: 45 },
-    ],
+    title: "Automation",
+    skills: [{ name: "Python for Security Automation", level: 75 }],
   },
+];
+
+export const certificates = [
+  {
+    name: "Advanced Diploma in Cyber Defense",
+    issuer: "Certification",
+  },
+  {
+    name: "XORION CTF: Chapter 1 — The Genesis",
+    issuer: "Certificate of Participation · Capture The Flag",
+  },
+];
+
+export const languages = [
+  { name: "Malayalam", level: "Native or Bilingual" },
+  { name: "English", level: "Professional Working" },
+  { name: "Tamil", level: "Limited Working" },
+  { name: "Hindi", level: "Elementary" },
 ];
 
 export const projects = [
@@ -56,11 +69,5 @@ export const projects = [
     tag: "Wireshark · Nmap",
     description:
       "A hands-on lab covering scanning, traffic analysis, and threat detection.",
-  },
-  {
-    name: "XORION CTF: Chapter 1 — The Genesis",
-    tag: "CTF",
-    description:
-      "Competed to sharpen real-world detection and problem-solving under pressure.",
   },
 ];
